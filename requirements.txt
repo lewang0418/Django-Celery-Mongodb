@@ -1,0 +1,21 @@
+Django==1.7.1
+amqp==1.4.6
+celery==3.1.17
+django-celery==3.1.16
+django-rest-framework-mongoengine==2.0.2
+djangorestframework==3.0.5
+-e git+https://github.com/django-nonrel/djangotoolbox@6536b0e6080dce2ad89c22fa4ea671e1f7e817f5#egg=djangotoolbox-dev
+httplib2==0.9
+kombu==3.0.24
+mongoengine==0.8.7
+oauthlib==0.7.2
+pika==0.9.14
+pymongo==2.7.2
+python-dateutil==2.2
+python-mimeparse==0.1.4
+python-openid==2.2.5
+requests==2.5.1
+requests-oauthlib==0.4.2
+six==1.9.0
+wsgiref==0.1.2
+
