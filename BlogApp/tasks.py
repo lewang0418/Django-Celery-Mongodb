@@ -12,11 +12,9 @@ def update_job(fn):
 	@wraps(fn)
 	def wrapper(job_id, *args, **kwargs):
 		user = User.objects.get(id=job_id)
-		user.name = "lewang"
 		result = fn(*args, **kwargs)
 		blog = Blog.objects.create(owner=user, result=result)
 		blog.save()
-		user.save()
 	return wrapper
 
 @app.task
